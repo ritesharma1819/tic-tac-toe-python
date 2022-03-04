@@ -147,7 +147,7 @@ def check_if_won():
         messagebox.showinfo(title='tic tac toe',message='congratulations! O won.')
         disable_all_button()
 
-    if count==9 and winner==False:
+    elif count==9 and winner==False:
         messagebox.showinfo(title='tic tac toe',message='Tie!\nNo won win!')
         disable_all_button()
 
